@@ -1,6 +1,6 @@
 # chat-application-
 
-# MERN Stack Chat Application
+#  Chat Application
 
 This is a full-stack chat application built using the MERN stack (MongoDB, Express.js, React, Node.js). The application provides real-time messaging functionality with authentication and user management.
 
