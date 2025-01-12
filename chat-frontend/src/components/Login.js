@@ -19,8 +19,9 @@ const Login = () => {
       );
       if (response.data.token) {
         localStorage.setItem("token", response.data.token);
+        localStorage.setItem("userId", response.data.userId);
         alert("Login successful!");
-        window.location.href = "/chat";
+        window.location.href = "/home";
       }
     } catch (err) {
       setError("Invalid username or password");
